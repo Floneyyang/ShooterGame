@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611ED8F825C6612C0089AE35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 618B049F25BF3A5400BD081D /* main.cpp */; };
+		611ED8FC25C6614F0089AE35 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 618B049C25BF3A5400BD081D /* ResourcePath.mm */; };
+		611ED8FE25C663B90089AE35 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 618B04B325BF44E600BD081D /* Game.cpp */; };
+		611ED90225C7253D0089AE35 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611ED90025C7253D0089AE35 /* Actor.cpp */; };
+		611ED90625C725890089AE35 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611ED90425C725890089AE35 /* Player.cpp */; };
+		611ED90A25C79FCF0089AE35 /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611ED90825C79FCF0089AE35 /* Projectile.cpp */; };
+		611ED90F25C8FA650089AE35 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611ED90D25C8FA650089AE35 /* Enemy.cpp */; };
+		618B04A325BF3A5400BD081D /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 618B04A225BF3A5400BD081D /* cute_image.jpg */; };
+		618B04A525BF3A5400BD081D /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 618B04A425BF3A5400BD081D /* nice_music.ogg */; };
+		618B04A725BF3A5400BD081D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618B04A625BF3A5400BD081D /* sansation.ttf */; };
+		618B04A925BF3A5400BD081D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618B04A825BF3A5400BD081D /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		611ED90025C7253D0089AE35 /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		611ED90125C7253D0089AE35 /* Actor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Actor.hpp; sourceTree = "<group>"; };
+		611ED90425C725890089AE35 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		611ED90525C725890089AE35 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		611ED90825C79FCF0089AE35 /* Projectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		611ED90925C79FCF0089AE35 /* Projectile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Projectile.hpp; sourceTree = "<group>"; };
+		611ED90D25C8FA650089AE35 /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		611ED90E25C8FA650089AE35 /* Enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
+		618B049725BF3A5400BD081D /* ShooterMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShooterMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		618B049B25BF3A5400BD081D /* ShooterMini-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ShooterMini-Info.plist"; path = "../ShooterMini-Info.plist"; sourceTree = "<group>"; };
+		618B049C25BF3A5400BD081D /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		618B049E25BF3A5400BD081D /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		618B049F25BF3A5400BD081D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		618B04A225BF3A5400BD081D /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
+		618B04A425BF3A5400BD081D /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
+		618B04A625BF3A5400BD081D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
+		618B04A825BF3A5400BD081D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		618B04B125BF3BD500BD081D /* ShooterMini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShooterMini.entitlements; sourceTree = "<group>"; };
+		618B04B325BF44E600BD081D /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		618B04B425BF44E600BD081D /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618B049325BF3A5400BD081D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618B048D25BF3A5400BD081D = {
+			isa = PBXGroup;
+			children = (
+				618B049925BF3A5400BD081D /* ShooterMini */,
+				618B049825BF3A5400BD081D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		618B049825BF3A5400BD081D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618B049725BF3A5400BD081D /* ShooterMini.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618B049925BF3A5400BD081D /* ShooterMini */ = {
+			isa = PBXGroup;
+			children = (
+				618B04B125BF3BD500BD081D /* ShooterMini.entitlements */,
+				618B049C25BF3A5400BD081D /* ResourcePath.mm */,
+				618B049E25BF3A5400BD081D /* ResourcePath.hpp */,
+				618B049F25BF3A5400BD081D /* main.cpp */,
+				618B04A125BF3A5400BD081D /* Resources */,
+				618B049A25BF3A5400BD081D /* Supporting Files */,
+				618B04B325BF44E600BD081D /* Game.cpp */,
+				618B04B425BF44E600BD081D /* Game.hpp */,
+				611ED90025C7253D0089AE35 /* Actor.cpp */,
+				611ED90125C7253D0089AE35 /* Actor.hpp */,
+				611ED90D25C8FA650089AE35 /* Enemy.cpp */,
+				611ED90E25C8FA650089AE35 /* Enemy.hpp */,
+				611ED90425C725890089AE35 /* Player.cpp */,
+				611ED90525C725890089AE35 /* Player.hpp */,
+				611ED90825C79FCF0089AE35 /* Projectile.cpp */,
+				611ED90925C79FCF0089AE35 /* Projectile.hpp */,
+			);
+			path = ShooterMini;
+			sourceTree = "<group>";
+		};
+		618B049A25BF3A5400BD081D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				618B049B25BF3A5400BD081D /* ShooterMini-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		618B04A125BF3A5400BD081D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				618B04A225BF3A5400BD081D /* cute_image.jpg */,
+				618B04A425BF3A5400BD081D /* nice_music.ogg */,
+				618B04A625BF3A5400BD081D /* sansation.ttf */,
+				618B04A825BF3A5400BD081D /* icon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618B049625BF3A5400BD081D /* ShooterMini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618B04AC25BF3A5400BD081D /* Build configuration list for PBXNativeTarget "ShooterMini" */;
+			buildPhases = (
+				618B049225BF3A5400BD081D /* Sources */,
+				618B049325BF3A5400BD081D /* Frameworks */,
+				618B049425BF3A5400BD081D /* Resources */,
+				618B049525BF3A5400BD081D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShooterMini;
+			productName = ShooterMini;
+			productReference = 618B049725BF3A5400BD081D /* ShooterMini.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618B048E25BF3A5400BD081D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Floney Yang";
+				TargetAttributes = {
+					618B049625BF3A5400BD081D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 618B049125BF3A5400BD081D /* Build configuration list for PBXProject "ShooterMini" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618B048D25BF3A5400BD081D;
+			productRefGroup = 618B049825BF3A5400BD081D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618B049625BF3A5400BD081D /* ShooterMini */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618B049425BF3A5400BD081D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618B04A925BF3A5400BD081D /* icon.png in Resources */,
+				618B04A725BF3A5400BD081D /* sansation.ttf in Resources */,
+				618B04A525BF3A5400BD081D /* nice_music.ogg in Resources */,
+				618B04A325BF3A5400BD081D /* cute_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		618B049525BF3A5400BD081D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618B049225BF3A5400BD081D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611ED8FE25C663B90089AE35 /* Game.cpp in Sources */,
+				611ED8FC25C6614F0089AE35 /* ResourcePath.mm in Sources */,
+				611ED90F25C8FA650089AE35 /* Enemy.cpp in Sources */,
+				611ED90A25C79FCF0089AE35 /* Projectile.cpp in Sources */,
+				611ED8F825C6612C0089AE35 /* main.cpp in Sources */,
+				611ED90225C7253D0089AE35 /* Actor.cpp in Sources */,
+				611ED90625C725890089AE35 /* Player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		618B04AA25BF3A5400BD081D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		618B04AB25BF3A5400BD081D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		618B04AD25BF3A5400BD081D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShooterMini/ShooterMini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF2526G3KH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ShooterMini/ShooterMini-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		618B04AE25BF3A5400BD081D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShooterMini/ShooterMini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF2526G3KH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ShooterMini/ShooterMini-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618B049125BF3A5400BD081D /* Build configuration list for PBXProject "ShooterMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618B04AA25BF3A5400BD081D /* Debug */,
+				618B04AB25BF3A5400BD081D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618B04AC25BF3A5400BD081D /* Build configuration list for PBXNativeTarget "ShooterMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618B04AD25BF3A5400BD081D /* Debug */,
+				618B04AE25BF3A5400BD081D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 618B048E25BF3A5400BD081D /* Project object */;
+}
