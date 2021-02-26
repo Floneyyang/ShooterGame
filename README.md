@@ -14,4 +14,6 @@ Using my knowledge of Unity infrastructure, I want to first create a game loop t
 Moreover, I see the importance of using the Listener pattern in this project, which seperates input handler from input listeners to create more freedom for keyboard/mouse input to be used across different features.
 
 ## Design
+Here is my project design in UML format.
 
+![](UML.jpg)
